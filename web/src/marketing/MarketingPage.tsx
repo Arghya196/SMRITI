@@ -35,7 +35,7 @@ export default function MarketingPage() {
   const showNav = useCallback(() => setNavShown(true), [])
 
   return (
-    <div className="overflow-x-clip bg-terracotta">
+    <div className="max-w-full overflow-x-hidden bg-terracotta">
       <MarketingNav shown={navShown} />
       <Hero onCurtainLift={showNav} />
       <HowItWorks />

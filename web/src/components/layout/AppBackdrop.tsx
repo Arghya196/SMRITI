@@ -124,7 +124,7 @@ export function AppBackdrop({ minutes }: { minutes: number }) {
       ))}
 
       {/* The hills, and the mist lying between them. */}
-      <div className="absolute inset-x-0 bottom-0 h-[26vh] min-h-[160px]">
+      <div className="absolute inset-x-0 bottom-0 h-[26vh] min-h-[160px] overflow-hidden">
         <svg
           viewBox="0 0 2400 200"
           preserveAspectRatio="none"

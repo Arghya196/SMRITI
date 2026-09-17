@@ -148,7 +148,7 @@ export function AppShell({ children }: { children: ReactNode }) {
     })
 
   return (
-    <div className="relative isolate min-h-dvh bg-ivory">
+    <div className="relative isolate min-h-dvh max-w-full overflow-x-hidden bg-ivory">
       <AppBackdrop minutes={minutes} />
 
       <header className="sticky top-0 z-40 bg-ivory">

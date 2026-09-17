@@ -398,6 +398,8 @@
 
   html {
     -webkit-text-size-adjust: 100%;
+    overflow-x: hidden;
+    max-width: 100%;
   }
 
   body {
@@ -407,6 +409,16 @@
     font-family: var(--font-body);
     -webkit-font-smoothing: antialiased;
     text-wrap: pretty;
+    overflow-x: hidden;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  #root {
+    min-height: 100dvh;
+    overflow-x: hidden;
+    max-width: 100%;
+    width: 100%;
   }
 
   h1,

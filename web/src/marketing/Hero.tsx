@@ -228,7 +228,7 @@ export function Hero({ onCurtainLift }: { onCurtainLift?: () => void }) {
 
             {/* The cloth's lower edge: a gamosa border and a temple-tooth
                 fringe, hanging just below the fold until the curtain lifts. */}
-            <div className="absolute inset-x-0 top-full">
+            <div className="absolute inset-x-0 top-full overflow-hidden">
               <GamosaBand size={22} />
               <TempleHem size={12} fill={color.eri} accent="transparent" flip />
             </div>
